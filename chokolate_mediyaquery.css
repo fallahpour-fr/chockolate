@@ -1,0 +1,17 @@
+@media only screen and (min-width:425px)and (max-width:767px) {
+    footer {
+        display: none;
+    }
+
+    .fixed_left_part {
+        display: none;
+    }
+
+    .one_story {
+        flex-direction: column;
+    }
+
+    .image_part_one_story {
+        flex-direction: column;
+    }
+}
