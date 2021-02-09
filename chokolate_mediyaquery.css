@@ -6,7 +6,37 @@
     .fixed_left_part {
         display: none;
     }
+/*..............................................................header....................................................................................*/
+/* nav{
+    font-size: 0.5em;
+}
+.navbar li{
+    margin: 0.3em;
+}*/
+.center_textof_header--title{
+    font-size: 2em;
+} 
+.navbar_link{
+    display: none;
+}
+.navbar_icons{
+    display: none;
+}
+.navbar_menu{
+    display: block;
+    margin-right: 60px;
+    font-size: 80%;
+    font-weight: 600;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
+.navbar_menu>i {
+    margin-right: 10px;
+}
+/*............................................................one_story..................................................................................*/
     .one_story {
         flex-direction: column;
     }
@@ -14,4 +44,54 @@
     .image_part_one_story {
         flex-direction: column;
     }
+/*............................................................Our_Qualities_discribe..................................................................................*/
+    .Our_Qualities_discribe{
+flex-direction: column;
+    }
+    .Our_Qualities_discribe--left_column {
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+    }
+    
+    .Our_Qualities_discribe--right_column {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        align-items: center;
+    }
+
+/*.............................................................Specialty..................................................................................*/
+.Specialty{
+    flex-direction: column;
+}
+.Specialty_image{
+    flex-direction: column;
+}
+/*.............................................................achivment..................................................................................*/
+.achivements_images--top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.achivements_images--top>img{
+    width: 40%;
+}
+.achivements_images--bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.achivements_images--bottom>img{
+    width: 40%;
+}
+
+.clients_opinions {
+    flex-direction: column;
+}
+
+.stores_discrib {
+    flex-direction: column;
+}
 }
