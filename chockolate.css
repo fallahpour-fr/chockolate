@@ -80,6 +80,7 @@ nav {
 .navbar a {
     color: var(--color5);
     transition: var(--transition);
+    text-decoration: none;
 }
 
 .navbar a:hover {
