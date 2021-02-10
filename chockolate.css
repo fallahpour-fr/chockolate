@@ -5,16 +5,25 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    outline-width: 0px;
+}
+
+*::before , *::after{
+    box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    display: block;
 }
 
 body {
-    font-size: 1.5em;
-    /*24px*/
+    font-size: 1.5em;/*24px*/
+    margin: 0px;
     overflow-x: hidden;
+    display: block;
+    word-wrap: break-word;
 }
 
 .row {

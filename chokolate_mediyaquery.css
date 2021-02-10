@@ -1,19 +1,14 @@
 @media only screen and (min-width:425px)and (max-width:767px) {
-    /* footer {
-        display: none;
-    } */
+   
+    body{
+        overflow-x: hidden;
+    }
 
     .fixed_left_part {
         display: none;
     }
 
     /*..............................................................header....................................................................................*/
-    /* nav{
-    font-size: 0.5em;
-}
-.navbar li{
-    margin: 0.3em;
-}*/
     .center_textof_header--title {
         font-size: 2em;
     }
@@ -142,6 +137,10 @@
 
 
 @media only screen and (min-width:767px)and (max-width:1024px) {
+    body{
+        overflow-x: hidden;
+    }
+
     .footer {
         position: unset;
     }
