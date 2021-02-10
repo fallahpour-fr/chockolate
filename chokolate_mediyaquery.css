@@ -102,6 +102,9 @@
     .clients_opinions {
         flex-direction: column;
     }
+    .clients>h2{
+        font-size: 1.5em;
+    }
 
     .stores_discrib {
         flex-direction: column;
@@ -131,12 +134,20 @@
     .footer {
         position: relative;
     }
+    /*.......................................................................*/
+    .title_and_text_first_model>h1{
+        font-size: 2em;
+    }
 }
 
 
 @media only screen and (min-width:767px)and (max-width:1024px) {
     .footer {
         position: unset;
+    }
+
+    .footer_part {
+        display: inline-block;
     }
 
     .fixed_left_part {
