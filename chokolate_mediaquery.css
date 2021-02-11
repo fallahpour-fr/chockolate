@@ -1,0 +1,191 @@
+@media only screen and (min-width:425px)and (max-width:767px) {
+   
+    body{
+        overflow-x: hidden;
+    }
+
+    .fixed_left_part {
+        display: none;
+    }
+
+    /*..............................................................header....................................................................................*/
+    .center_textof_header--title {
+        font-size: 2em;
+    }
+
+    .navbar_link {
+        display: none;
+    }
+
+    .navbar_icons {
+        display: none;
+    }
+
+    .navbar_menu {
+        display: block;
+        margin-right: 60px;
+        font-size: 80%;
+        font-weight: 600;
+        color: #fff;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .navbar_menu>i {
+        margin-right: 10px;
+    }
+
+    /*............................................................one_story..................................................................................*/
+    .one_story {
+        flex-direction: column;
+    }
+
+    .image_part_one_story {
+        flex-direction: column;
+    }
+
+    /*............................................................Our_Qualities_discribe..................................................................................*/
+    .Our_Qualities_discribe {
+        flex-direction: column;
+    }
+
+    .Our_Qualities_discribe--left_column {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .Our_Qualities_discribe--right_column {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        align-items: center;
+    }
+
+    /*.............................................................Specialty..................................................................................*/
+    .Specialty {
+        flex-direction: column;
+    }
+
+    .Specialty_image {
+        flex-direction: column;
+    }
+
+    /*.............................................................achivment..................................................................................*/
+    .achivements_images--top {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .achivements_images--top>img {
+        width: 40%;
+    }
+
+    .achivements_images--bottom {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .achivements_images--bottom>img {
+        width: 40%;
+    }
+
+    .clients_opinions {
+        flex-direction: column;
+    }
+    .clients>h2{
+        font-size: 1.5em;
+    }
+
+    .stores_discrib {
+        flex-direction: column;
+    }
+
+    .section_map--iframe {
+        border: 0;
+        padding-bottom: 0px;
+    }
+
+    .footer_part {
+        display: inline-block;
+    }
+
+    .footer_left_part--icon {
+        display: none;
+    }
+
+    .footer_two {
+        flex-direction: column;
+    }
+
+    .footer_two_right--Contact {
+        margin-top: 0em;
+    }
+
+    .footer {
+        position: relative;
+    }
+    /*.......................................................................*/
+    .title_and_text_first_model>h1{
+        font-size: 2em;
+    }
+}
+
+
+@media only screen and (min-width:767px)and (max-width:1024px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .footer {
+        position: unset;
+    }
+
+    .footer_part {
+        display: inline-block;
+    }
+
+    .fixed_left_part {
+        display: none;
+    }
+
+    .section_map--iframe {
+        padding-bottom: 0px;
+    }
+
+    .footer_left_part--icon {
+        display: none;
+    }
+
+    /*..............................................................header....................................................................................*/
+    .center_textof_header--title {
+        font-size: 2em;
+    }
+
+    .navbar_link {
+        display: none;
+    }
+
+    .navbar_icons {
+        display: none;
+    }
+
+    .navbar_menu {
+        display: block;
+        margin-right: 60px;
+        font-size: 80%;
+        font-weight: 600;
+        color: #fff;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .navbar_menu>i {
+        margin-right: 10px;
+    }
+}
