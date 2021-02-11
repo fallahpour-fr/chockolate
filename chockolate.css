@@ -8,7 +8,8 @@
     outline-width: 0px;
 }
 
-*::before , *::after{
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -19,7 +20,8 @@ html {
 }
 
 body {
-    font-size: 1.5em;/*24px*/
+    font-size: 1.5em;
+    /*24px*/
     margin: 0px;
     overflow-x: hidden;
     display: block;
@@ -244,6 +246,7 @@ nav {
 .img_of_one_story img {
     margin: 5px;
     width: 50%;
+    transition: var(--transition);
 }
 
 .img_of_one_story img:hover {
@@ -793,6 +796,7 @@ form {
     /* background-color: yellowgreen; */
     display: flex;
     justify-content: flex-end;
+    color: #ffffff;
 }
 
 .input_in_form {
@@ -801,6 +805,16 @@ form {
     height: 40px;
     margin: 0.6em;
     background-color: var(--color4);
+}
+
+input[type=email] {
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(168, 68, 68);
+}
+
+.form:focus{
+    border: 5px solid blue;
 }
 
 form>button {
@@ -821,9 +835,7 @@ form>button:hover {
     color: var(--color5);
 }
 
-.footer_two_left--followus {
-   
-}
+.footer_two_left--followus {}
 
 .footer_two_left--followus>h3 {
     font-family: var(--fontfamily);
@@ -912,19 +924,24 @@ form>button:hover {
     padding: 1em 0em;
 }
 
-.footer_two_right--Contact--information{
+.footer_two_right--Contact--information {
     display: flex;
     font-size: 0.8em;
     padding: 1em 0em;
 }
 
-.information_icons{
+.information_icons {
     padding: 0.5em;
     color: var(--color1);
     border: 1px solid var(--color1);
 }
 
-.information_text{
+.information_text {
     padding: 0em 0.7em;
     font-size: 0.9em;
+}
+
+.footer_titlle{
+    color:var(--color2);
+     padding-right:10px;
 }

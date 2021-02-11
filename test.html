@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-size: 1.5em;
+            /*24px*/
+            overflow-x: hidden;
+            width: 100%;
+            /* height: 100%;
+            min-height: 100vh; */
+        }
+
+        .row {
+            max-width: 1320px;
+            margin: 0 auto;
+        }
+       
+        .achivements{
+            background-color: chocolate;
+            width: 100%;
+            
+        }
+
+        .one{
+            background-color: cadetblue;
+            padding: 3.2em 0em;
+        }
+        /* .achivements_images--top{
+             display: flex;  
+             justify-content: center;
+             align-items: center;
+            }
+
+            .achivements_images--top>div{
+               display: flex;
+            } */
+
+            .achivements_images--bottom{
+                display: flex;
+               
+                justify-content: center;
+                align-items: center;
+            }
+              
+            .achivements_images--bottom>img{
+                width: 22%;
+            }
+
+        @media only screen and (min-width:425px)and (max-width:768px) {
+            /* .achivements_images--top{
+             flex-direction: column; 
+            } */
+
+            .achivements_images--bottom{
+                flex-direction: column;
+            }
+            .achivements_images--bottom img{
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section_achievements">
+
+        <div class="row achivements">
+            <div class="title_and_text_second_modele">
+                <h1 class="title_text_second_model">
+                    Our Achievements
+                </h1>
+                <p class="title_text_second_model">
+                    Nulla ut felis in purus aliquam imperdiet. Maecenas aliquet mollis lectus. Vivamus consectetuer
+                    risus et tortor.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
+                    cursus ante dapibus diam.
+                    Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+                </p>
+            </div>
+
+            <div class="achivements_images">
+                <!-- <div class="achivements_images--top">
+                    <div>
+                        <img src="./img/img_189537-300x200.jpg" alt="some chocklate">
+                        <img src="./img/img_110934-300x200.jpg" alt="some chocklate">
+                    </div>
+                     <div>
+                        <img src="./img/img_239584-300x200.jpg" alt="some chocklate">
+                        <img src="./img/img_207273-300x200.jpg" alt="some chocklate">
+                     </div>
+                    <div>
+                        <img src="./img/img_221082-300x200.jpg" alt="some chocklate">
+                        <img src="./img/img_310254-300x200.jpg" alt="some chocklate">
+                    </div>
+                    <div>
+                        <img src="./img/img_63452-300x200.jpg" alt="some chocklate">
+                        <img src="./img/img_47013-300x200.jpg" alt="some chocklate">
+                    </div>
+                    
+                </div> -->
+                <div class="one">
+                    <div class="achivements_images--top">
+                        <div><img src="./img/img_189537-300x200.jpg" alt="some chocklate"></div>
+                        <div><img src="./img/img_110934-300x200.jpg" alt="some chocklate"></div>
+                        <div><img src="./img/img_239584-300x200.jpg" alt="some chocklate"></div>
+                        <div><img src="./img/img_207273-300x200.jpg" alt="some chocklate"></div>
+                    </div>
+                    <div class="achivements_images--bottom">
+                        <img src="./img/img_221082-300x200.jpg" alt="some chocklate">
+                        <img src="./img/img_310254-300x200.jpg" alt="some chocklate">
+                        <img src="./img/img_63452-300x200.jpg" alt="some chocklate">
+                        <img src="./img/img_47013-300x200.jpg" alt="some chocklate">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

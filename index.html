@@ -354,20 +354,21 @@
         <div class="row">
             <div class="footer_two">
                 <div class="footer_two_left">
-                    <h3><span style="color:#e9a921; padding-right:10px;">|</span>About Us</h3>
+                    <h3><span class="footer_titlle" >|</span>About Us</h3>
                     <div class="footer_two_left--logo">
                         <img src="./img/footer-logo.png">
                         <p>Curabitur sodales ligula in libero sed dignissim lacinia nunc tortor.<br>
                             Pellentesque nibh aenean quam in scelerisque.</p>
                     </div>
                     <div class="footer_two_left--Newsletter">
-                        <h3><span style="color:#e9a921;padding-right:10px;">|</span>Newsletter</h3>
+                        <h3><span class="footer_titlle">|</span>Newsletter</h3>
                         <p>Get all latest content delivered to your email a few times a month.Updates and news<br>
                              about all categories will send to you</p>
                         <div class="form">
                             <form>
-                                <input class="input_in_form" type="email" placeholder=" Your Email"
-                                    style="font-size: 17px; font-weight: 300; color: rgb(59, 59, 59);">
+                                <input type="email" placeholder="Your Email" onfocus="if (this.value == this.defaultValue)this.value = '';" 
+                                onblur="if (this.value == '')this.value = this.defaultValue;" name="EMAIL" class="required email">
+                                <input class="input_in_form" type="email" placeholder=" Your Email" class="input-style">
                                 <button>Go</button>
                             </form>
                         </div>
@@ -375,7 +376,7 @@
                     </div>
 
                     <div class="footer_two_left--followus">
-                        <h3><span style="color:#e9a921;padding-right:10px;">|</span>Follow Us</h3>                       
+                        <h3><span class="footer_titlle">|</span>Follow Us</h3>                       
                             <ul class="footer_icons">
                                 <li id="twitter" ><i class='fab fa-twitter'></i></li>
                                 <li id="facebook"><i class='fab fa-facebook'></i></li>
@@ -388,11 +389,11 @@
                 </div>
                 <div class="footer_two_right">
                     <div class="footer_two_right--Instagram">
-                        <h3><span style="color:#e9a921;padding-right:10px;">|</span>Instagram</h3>
+                        <h3><span class="footer_titlle">|</span>Instagram</h3>
                         <p>Instagram has returned invalid data.</p>
                     </div>
                     <div class="footer_two_right--Contact">
-                        <h3><span style="color:#e9a921;padding-right:10px;">|</span>Contact Info</h3>
+                        <h3><span class="footer_titlle">|</span>Contact Info</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit pariatur.</p>
                         <div class="footer_two_right--Contact--information">
                             <span class="information_icons"><i class="fas fa-map-marker-alt"></i></span>
