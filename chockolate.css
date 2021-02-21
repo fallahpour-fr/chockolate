@@ -298,9 +298,10 @@ nav {
     background-image: linear-gradient(rgba(53, 52, 52, 0.411), rgba(53, 52, 52, 0.411)), url(./img/download3.jpg);
     color: var(--color5);
     position: relative;
+    clip-path: polygon(50% 0%, 100% 4%, 100% 35%, 100% 70%, 100% 96%, 50% 100%, 0 95%, 0% 70%, 0% 35%, 0 4%);
 }
 
-.svg--up {
+/* .svg--up {
     position: absolute;
     right: 0;
     width: 100%;
@@ -316,7 +317,7 @@ nav {
     height: 10vh;
     top: 0;
     fill: var(--color4);
-}
+} */
 
 /*............................................................................*/
 
@@ -452,6 +453,7 @@ nav {
 .section_achievements {
     padding: 40px 0px;
     width: 100%;
+    background-color: ;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -459,6 +461,11 @@ nav {
     color: var(--color5);
     position: relative;
     font-size: 1em;
+    clip-path: polygon(50% 0%, 100% 4%, 100% 35%, 100% 70%, 100% 96%, 50% 100%, 0 95%, 0% 70%, 0% 35%, 0 4%);
+}
+
+.clip-path{
+    background-color: var(--color4);
 }
 
 .achivements_images img {
