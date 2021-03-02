@@ -41,7 +41,7 @@
         flex-direction: column;
     }
 
-    .image_part_one_story {
+    .one-story__images{
         flex-direction: column;
     }
 
@@ -71,6 +71,11 @@
 
     .Specialty_image {
         flex-direction: column;
+    }
+
+    .Specialty_image-block {
+        margin: 5px;
+        width: 70%;    
     }
 
     /*.............................................................achivment..................................................................................*/

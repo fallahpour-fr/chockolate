@@ -230,9 +230,9 @@ nav {
 }
 
 /*............................................................................................................................................................*/
+
 .img_of_one_story {
     width: 90%;
-    height: 100%;
     padding: 1em;
 }
 
@@ -240,37 +240,30 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.one-story__img{
+    width: 100%;
     margin: 5px;
 }
 
-.one-story__img:hover{
-    margin: 5px;  
-    animation: crescendo 1.5s alternate infinite ease-in; 
-}
-
-.one-story__img img {
+.one-story__img-block {
+    margin: 5px;
     width: 100%;
-    margin: 1px;
+    
 }
 
-@keyframes crescendo {
-    0%   {transform: scale(.8);}
-    100% {transform: scale(1.5);}
-  }
+.one-story__img {
+    width: 100%;
+    transition:var(--transition) ;
+}
 
-/* .one-story__img:hover   {
+.one-story__img-block:hover .one-story__img {
     animation-name: thumb;
     animation-duration: 800ms;
     animation-timing-function: initial;
     animation-fill-mode: forwards;
     animation-direction: alternate;
-    animation-play-state: paused;
-} 
+}
 
- @keyframes thumb {
+@keyframes thumb {
     0% {
         transform: scale(0.75);
     }
@@ -284,9 +277,6 @@ nav {
     }
 }
 
-.one_story__img:hover{
-    animation-name: thumb;
-} */
 
 /*............................................................... section Our Qualities.............................................................................*/
 .section_Our_Qualities {
@@ -410,32 +400,28 @@ nav {
     width: 100%;
     align-items: center;
     justify-content: center;
-}
-
-.Specialty_image>div {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 5px;
 }
 
-.Specialty_image img {
+.Specialty_image-block {
     margin: 5px;
-    transition: 1.5s;
+    width: 100%;    
+}
+
+.Specialty_image__img {
     width: 100%;
-    height: 100%;
+    transition:var(--transition) ;
 }
 
-.Specialty_image img:hover {
+.Specialty_image-block:hover .Specialty_image__img {
     animation-name: thumb;
-    animation-duration: 700ms;
-    transform-origin: 50% 50%;
-    animation-iteration-count: 1;
+    animation-duration: 800ms;
     animation-timing-function: initial;
     animation-fill-mode: forwards;
+    animation-direction: alternate;
 }
 
-@-webkit-keyframes thumb {
+@keyframes thumb {
     0% {
         transform: scale(0.75);
     }
@@ -448,6 +434,7 @@ nav {
         transform: scale(0.75);
     }
 }
+
 
 /*..............................................................section achievements ...............................................................................*/
 .section_achievements {
